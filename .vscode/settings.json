@@ -1,0 +1,104 @@
+{
+    "editor.formatOnSave": true,  
+    "vetur.validation.template": true,
+    "editor.fontFamily": "Fira Code", //fontes massa
+    "editor.fontLigatures": true, //fontes massa
+    "prettier.documentSelectors": ["**/*.abc"],
+    "eslint.validate": [
+        {
+          "language": "javascript",
+          "autoFix": true 
+        },
+        {
+          "language": "javascriptreact",
+          "autoFix": true
+        },
+        {
+          "language": "typescript",
+          "autoFix": true
+        },
+        {
+          "language": "typescriptreact",
+          "autoFix": true
+        }
+      ],
+    "editor.suggestSelection": "first",
+   
+    "beautify.language": {
+      "js": {
+        "type": ["javascript", "json"],
+        "filename": [".jshintrc", ".jsbeautifyrc"]
+        // "ext": ["js", "json"]
+        // ^^ to set extensions to be beautified using the javascript beautifier
+      },
+      "css": ["css", "scss"],
+      "html": ["htm", "html"]
+      // ^^ providing just an array sets the VS Code file type
+    },
+    "beautify.ignore": "**/*_test.js",
+     "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "dart.debugExternalLibraries": true,
+    "dart.debugSdkLibraries": true,
+    "material-icon-theme.folders.associations": {
+      "infra": "app",
+      "entities": "class",
+      "domain": "class",
+      "schemas": "class",
+      "componentes": "componentes",
+      "typeorm": "database",
+      "repository": "mappings",
+      "repositories": "mappings",
+      "http": "container",
+      "endpoints": "api",
+      "presentation": "layout",
+      "datasources": "database",
+      "datasource": "database",
+      "mongodb": "server",
+      "postgress": "server",
+      "network": "aws",
+      "flare": "animation",
+      "ports": "pipe",
+      "paths": "routes",
+      "usecases": "controller",
+      "usecase": "controller",
+      "userstories": "resource",
+      "userstorie": "resource",
+      "adapters": "serverless",
+      "adapter": "serverless",
+      "getx": "container",
+      "bloc": "container",
+      "provider": "include",
+      "providers": "include",
+      "migrations": "tools",
+      "modules": "components",
+      "implementations": "core",
+      "dto": "template",
+      "fakes": "moke",
+      "websockets": "pipe",
+      "protos": "pipe",
+      "grpc": "pipe",
+      "subscribers": "messages",
+      "kafla": "scripts",
+      "mappers": "meta",
+      "eslint-config": "config",
+      "protocols": "tools",
+      "criptography": "keys",
+      "decorators": "markdown",
+      "factories": "constant",
+      "features": "content"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter.notebook.ipynb"
+    }
+  }
+  

@@ -1,0 +1,39 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Health-check-backend",
+    "version": "v1.0.0-beta",
+    "description": "A API built on top of expressJS",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Auth"
+    },
+    {
+      "name": "User"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {},
+  "definitions": {},
+  "servers": [
+    {
+      "url": "http://localhost:3000/api/v1",
+      "description": "Development Environment - v1"
+    }
+  ],
+  "externalDocs": {
+    "url": "",
+    "description": "Postman"
+  }
+}
